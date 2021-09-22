@@ -1,0 +1,6 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
+
+
+NOTE:
+- THE BROWSER CANNOT INTERPRET SASS
+- GULP CAN BE USED TO CONVERT SASS INTO CSS 
