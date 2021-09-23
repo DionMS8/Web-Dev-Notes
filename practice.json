@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Facebook",
+        "numberOfEmployees": 10000,
+        "ceo": "Mark",
+        "rating": 8.5
+    },
+
+    {
+        "name": "Apple",
+        "numberOfEmployees": 20000,
+        "ceo": "Jobs",
+        "rating": 7.5
+    },
+
+    {
+        "name": "Startup Company",
+        "numberOfEmployees": 500,
+        "ceo": null,
+        "rating": 4.3
+    }
+]

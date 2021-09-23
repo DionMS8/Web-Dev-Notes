@@ -1,0 +1,42 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
+
+- JSON => JAVASCRIPT OBJECT NOTATION
+
+
+#-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
+
+- JSON IS A DATA REPRESENTATION FORMAT 
+- IT CAN BE PARSED INTO OBJECTS AND CLASSES
+- IT IS COMMONLY USED WITH APIS
+- IT IS EASIER TO READ AS OPPOSED TO XML
+
+
+#-----[CREATING AN OBJECT FOR A JSON FILE]--------------------------------------------------------------------------------------------------------------------------------------------
+
+RECALL: AN OBJECT IS COMPOSED OF KEY-VALUE PAIRS 
+
+{
+    "key": "value",
+    "fname": "John",
+    "lname": "Doe",
+    "age": 23,
+    "email": "johndoe123@hotmail.com",
+    isVaccinated: true,
+    "vaccines": ["1st Dose", "2nd Dose"]
+    "friends": [{ 
+        "key": "value", 
+        "fname": "John", 
+        "lname": "Doe", 
+        "age": 23, 
+        "email": "johndoe123@hotmail.com",
+        isVaccinated: true,
+        "vaccines": ["1st Dose", "2nd Dose"]
+        "friends": [{...}]
+    }]
+}
+
+NOTE: JSON FILES WILL COMMONLY HAVE ARRAYS OF OBJECTS NESTED 
+WITHIN EACH OTHER 
+
+
+
