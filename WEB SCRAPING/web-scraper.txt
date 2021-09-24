@@ -1,0 +1,11 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
+
+- WEB SCRAPING => THIS IS A SCRIPTED METHOD OF EXTRACTING DATA FROM A WEBSITE THAT CAN THEN BE TAILORED TO YOUR USE-CASE
+- CHEERIO.JS => THIS IS A JS TECHNOLOGY USED FOR WEB SCRAPING IN SERVER-SIDE IMPLEMENTATIONS WITH NODE.JS
+
+
+#-----[NOTES]----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
