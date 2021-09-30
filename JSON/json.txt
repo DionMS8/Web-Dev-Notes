@@ -29,7 +29,7 @@ NOTE: JSON FILES WILL COMMONLY HAVE ARRAYS OF OBJECTS NESTED
 WITHIN EACH OTHER 
 
 
-# -----[JSON FUNCTIONS]-------------------------------------------------------------------------------------------------------------------
+# -----[ESSENTIAL FUNCTIONS]-------------------------------------------------------------------------------------------------------------------
 
 STRINGIFY() => THIS FUNCTION CONVERTS A JS OBJECT TO A STRING
 PARSE() => THIS FUNCTION CONVERTS A JS STRING TO AN OBJECT
