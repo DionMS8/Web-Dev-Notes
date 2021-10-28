@@ -1,0 +1,54 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
+
+- ASYNCHRONOUS ARCHITECTURE => This allows the system to handle multiple user requests at the same time
+- EVENT QUEUE => This is where completed requests are placed by the server and it is monitored by Node
+- EVENT EMITTER CLASS => THIS CLASS IS USED TO BIND EVENTS AND LISTENERS
+
+#-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
+
+- NODE WAS CREATED WHEN THE JS V8 ENGINE WAS EMBEDDED WITHIN A C++ PROGRAM 
+- NODE IS FAST, EFFICIENT AND HIGHLY SCALABLE
+- NODE IS EVENT DRIVEN
+- NODE WORKS ON A SINGLE THREAD OF REQUESTS
+- NODE DOES NOT HAVE THE DOCUMENT OR WINDOW OBJECTS 
+
+- VARIABLES AND FUNCTIONS CREATED WITHIN A MODULE ARE NOT 
+ADDED TO THE GLOBAL SCOPE SO THEY ARE PRIVATE TO THAT MODULE 
+AND NOT VISIBLE FROM THE OUTSIDE
+- ALWAYS USE ASYNCHRONOUS METHODS
+- THE FIRST LETTER OF EACH WORD IN A CLASS TITLE IS CAPITAL (PASCAL NOTATION)
+
+!!! REVISE EVENT EMITTER AND EXTENDING IT !!!
+
+
+#-----[MODULES]--------------------------------------------------------------------------------------------------------------------------------------------
+
+CORE MODULES:
+- OS
+- FAST
+- EVENTS
+- HTTP
+
+CUSTOM MODULES:
+- FOLDERS
+- FILES
+
+
+#-----[EXPORTING A MODULE]-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+module.exports.variable = "variableName"
+
+module.exports.function = "functionName"
+
+
+#-----[LOADING PACKAGE LIBRARY WITH REQUIRE]-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- THE REQUIRE() FUNCTION IS USED TO LOAD A PACKAGE OR MODULE FROM AN EXTERNAL FOLDER 
+
+const moduleName = require("moduleName")
+
+
+A class is created, it then uses the ‘extends EventEmitter’ to gain all the capabilities of the Event Emitter class
+
+
+

@@ -1,0 +1,23 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
+
+
+- npm install -g npx
+- npx create-react-app app_name
+
+
+
+#-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
+
+- A REACT COMPONENT REPRESENTS A PIECE OF THE UI
+- DOM CONTAINERS ARE CREATED ON THE HTML SCRIPT WITH AN ID/CLASS AND REACT IS ADDED USING JS TO REPLACE ANY EXISTING CONTENT IN THE DOM CONTAINER
+- ONCE A REACT COMPONENT IS CREATED, IT CAN BE USED MULTIPLE TIMES WITH DIFFERENT DATA
+
+
+
+
+
+#-----[MODULES]--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+ 

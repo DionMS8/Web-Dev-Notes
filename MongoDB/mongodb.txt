@@ -1,0 +1,85 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------
+
+- ATLAS => THIS IS USED TO SET UP THE MONGODB CLOUD AND VIEW THE DATA IN THE DATABASE
+- CLUSTER =>
+- DOCUMENT => THIS IS A SINGLE ENTRY IN A COLLECTION
+- SHARDING => THIS IS THE PROCESS OF DISTRIBUTING DATA ACROSS MULTIPLE SERVERS FOR STORAGE
+
+
+#-----[RELATIONSHIPS]--------------------------------------------------------------------------------------------------------
+
+- ONE-TO-ONE => EACH ENTITY HAS ONE VALUE FOR EACH KEY
+- ONE-TO-MANY 
+- ONE-TO-SQUILLIONS
+- MANY-TO-MANY
+
+- SQUILLIONS => AN UNSPECIFIED MASSIVE NUMBER
+
+
+#-----[MODELLING THE DESIGN SCHEMA]--------------------------------------------------------------------------------------------------------
+
+- ALWAYS EMBED AN OBJECT UNLESS THERE IS A COMPELLING REASON NOT TO
+- IF AN OBJECT NEEDS TO BE ACCESSED ON IT'S OWN, THEN DO NOT EMBED IT 
+- AVOID JOINS IF POSSIBLE
+- ARRAYS SHOULD ALWAYS GROW WITHIN BOUNDS 
+
+
+
+#-----[SETTING UP THE DB WITH ATLAS]--------------------------------------------------------------------------------------------------------
+
+- CREATE NEW PROJECT
+- BUILD A SHARED, FREE DATABASE 
+- CHOOSE AWS AS THE CLOUD PROVIDER AND CHOOSE A REGION
+- GO TO => DATABASE => COLLECTIONS => ADD MY OWN DATA
+
+
+
+#-----[NOTES]-------------------------------------------------------------------------------------------------------------------
+
+- MONGODB IS A NON-RELATIONAL DATABASE
+- MONGODB IS DOCUMENT-ORIENTED
+- DOCUMENTS ARE STORED COLLECTIONS ARE STORED IN CLUSTERS WHICH ARE STORED IN DOCUMENTS
+- QUERY API
+
+- db.userinfo.find({}) => DISPLAY THE USERINFO TABLE
+- show collections => SHOW DIFFERENT "TABLES" IN THE DATABASE
+
+
+
+#-----[QUERIES]--------------------------------------------------------------------------------------------------------
+
+- db.___.insertOne
+
+
+
+
+#-----[SHARDING]--------------------------------------------------------------------------------------------------------
+
+- THIS IS THE PROCESS OF ADDING SERVERS AND DISTRIBUTING DATA ACROSS MULTIPLE SERVERS FOR STORAGE
+- SHARDING SUPPORTS HORIZONTAL SCALING AND DATA GROWTH 
+- THE DISTRIBUTED DATA AND LOAD IS AUTOMATICALLY BALANCED BETWEEN THE SERVERS 
+
+- EACH SHARD SERVES AS AN INDEPENDENT DATABASE WHICH TOGETHER, MAKE UP A SINGLE LOGICAL DATABASE
+
+
+
+
+
+#-----[CRUD OPERATIONS]--------------------------------------------------------------------------------------------------------
+
+
+
+ 
+#-----[INDEXING AND AGGREGATION PIPELINE]--------------------------------------------------------------------------------------------------------
+
+
+
+#-----[IMPORTING, EXPORTING, AND QUERYING DATA]--------------------------------------------------------------------------------------------------------
+
+
+
+#-----[CREATING AND MANIPULATING DOCUMENTS]--------------------------------------------------------------------------------------------------------
+
+
+
+

@@ -1,0 +1,15 @@
+#-----[NOTES]----------------------------------------------------------------------------------------------------------------------------
+
+- JEST IS A JAVASCRIPT TESTING FRAMEWORK
+- JEST SHOULD BE INSTALLED AS A GLOBAL DEV DEPENDENCY SINCE IT IS ONLY USED IN DEVELOPMENT
+
+
+
+#-----[COMMANDS]-------------------------------------------------------------------------------------------------------------------------------
+
+npm i --save-dev jest
+
+
+
+
+
