@@ -5,6 +5,16 @@
 - DOCUMENT => THIS IS A SINGLE ENTRY IN A COLLECTION
 - SHARDING => THIS IS THE PROCESS OF DISTRIBUTING DATA ACROSS MULTIPLE SERVERS FOR STORAGE
 
+#-----[NOTES]-------------------------------------------------------------------------------------------------------------------
+
+- MONGODB IS A NON-RELATIONAL DATABASE
+- MONGODB IS DOCUMENT-ORIENTED
+- DOCUMENTS ARE STORED COLLECTIONS ARE STORED IN CLUSTERS WHICH ARE STORED IN DOCUMENTS
+- QUERY API
+
+- db.userinfo.find({}) => DISPLAY THE USERINFO TABLE
+- show collections => SHOW DIFFERENT "TABLES" IN THE DATABASE
+
 
 #-----[RELATIONSHIPS]--------------------------------------------------------------------------------------------------------
 
@@ -34,32 +44,9 @@
 
 
 
-#-----[NOTES]-------------------------------------------------------------------------------------------------------------------
-
-- MONGODB IS A NON-RELATIONAL DATABASE
-- MONGODB IS DOCUMENT-ORIENTED
-- DOCUMENTS ARE STORED COLLECTIONS ARE STORED IN CLUSTERS WHICH ARE STORED IN DOCUMENTS
-- QUERY API
-
-- db.userinfo.find({}) => DISPLAY THE USERINFO TABLE
-- show collections => SHOW DIFFERENT "TABLES" IN THE DATABASE
-
-
-
 #-----[QUERIES]--------------------------------------------------------------------------------------------------------
 
 - db.___.insertOne
-
-
-
-
-#-----[SHARDING]--------------------------------------------------------------------------------------------------------
-
-- THIS IS THE PROCESS OF ADDING SERVERS AND DISTRIBUTING DATA ACROSS MULTIPLE SERVERS FOR STORAGE
-- SHARDING SUPPORTS HORIZONTAL SCALING AND DATA GROWTH 
-- THE DISTRIBUTED DATA AND LOAD IS AUTOMATICALLY BALANCED BETWEEN THE SERVERS 
-
-- EACH SHARD SERVES AS AN INDEPENDENT DATABASE WHICH TOGETHER, MAKE UP A SINGLE LOGICAL DATABASE
 
 
 

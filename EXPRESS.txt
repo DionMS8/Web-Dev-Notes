@@ -4,5 +4,7 @@
 
 #-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
 
-- EXPRESS IS A FRAMEWORK WHICH IS BUILT ON THE HTTP MODULE OF NODE.JS AND IT IS USED TO MANAGE MULTIPLE ROUTES
+- EXPRESS IS A WEB FRAMEWORK FOR NODE
+- IT IS BUILT ON THE HTTP MODULE OF NODE
+- IT IS USED TO MANAGE MULTIPLE ROUTES
 
