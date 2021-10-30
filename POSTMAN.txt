@@ -6,7 +6,17 @@
 
 #-----[NOTES]]----------------------------------------------------------------------------------------------------------
 
-- POSTMAN IS USED FOR API TESTING
+- POSTMAN IS USED FOR API BUILDING AND TESTING
+
+- ALSO USED FOR TESTING HTTP REQUESTS
+
+- IT CREATES REQUESTS AND GIVES RESPONSES TO 
+ENSURE THAT IT CONTAINS THE ELEMENT WE WANT FROM THE API 
+
+- IT RUNS ON THE BACKEND
+
+
+
 
 
 

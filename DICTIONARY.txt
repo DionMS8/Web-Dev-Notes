@@ -1,0 +1,9 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------
+
+- SVG => SCALABLE VECTOR GRAPHIC IS AN IMAGE FORMAT WHICH SUPPORTS INTERACTIONS AND ANIMATIONS
+
+
+
+
+
+

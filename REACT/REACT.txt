@@ -1,0 +1,31 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------
+
+- VIRTUAL DOM => 
+- SPA => SINGLE PAGE APPLICATION
+- JSX => JAVASCRIPT SYNTAX EXTENSION
+
+
+
+#-----[NOTES]]----------------------------------------------------------------------------------------------------------
+
+- BUILT AND MAINTAINED BY FACEBOOK
+- REUSABLE COMPONENTS WITH THEIR OWN STATE
+- IT RUNS ON THE CLIENT AS A SPA
+- INTERACTIVE USER-INTERFACES
+
+
+#-----[COMPONENTS]----------------------------------------------------------------------------------------------------------
+
+- CREATED USING FUNCTIONS OR CLASSES
+- FUNCTIONS USE HOOKS 
+- THEY RENDER OR RETURN JSX
+
+
+
+
+
+
+
+
+
+
