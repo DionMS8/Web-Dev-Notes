@@ -1,0 +1,6 @@
+#-----[NOTES]]----------------------------------------------------------------------------------------------------------
+
+- REACT COMPONENTS MAY BE CREATED IN 2 WAYS:
+-- USING FUNCTIONS 
+-- USING CLASSES 
+

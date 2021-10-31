@@ -6,12 +6,18 @@
 
 
 
-#-----[NOTES]]----------------------------------------------------------------------------------------------------------
+#-----[NOTES]----------------------------------------------------------------------------------------------------------
 
 - BUILT AND MAINTAINED BY FACEBOOK
 - REUSABLE COMPONENTS WITH THEIR OWN STATE
 - IT RUNS ON THE CLIENT AS A SPA
 - INTERACTIVE USER-INTERFACES
+
+- ALL OF THE HTML AND CSS IS DONE IN THE JS FILES
+- ALL OF THE HTML IS SENT TO A SINGLE DIV IN THE INDEX.HTML FILE
+- THE DIV MAY HAVE AN ID OF "ROOT"
+
+- REACT DEVTOOLS FOR CHROME CAN BE USED TO INSPECT THE REACT COMPONENTS IN AN APPLICATION
 
 
 #-----[COMPONENTS]----------------------------------------------------------------------------------------------------------
