@@ -4,15 +4,19 @@
 - HTTPS => SECURE HYPERTEXT TRANSFER PROTOCOL. ENCRYPTED.
 - FTP => FILE TRANSFER PROTOCOL
 
+#-----[HTTP STATUS CODES]--------------------------------------------------------------------------------------------------------------------------------------------
+
+200 => SUCCESSFUL REQUEST
+404 => FILE NOT FOUND ERROR MESSAGE
+400 => BAD REQUEST
+
 
 #-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
 
+- THE DEFAULT PORT FOR HTTP IS PORT 80
 - HTTPS IS SAFER FOR SENSITIVE INFORMATION
 
 
 
-#-----[STATUS CODES]--------------------------------------------------------------------------------------------------------------------------------------------
-
-404 => FILE NOT FOUND ERROR MESSAGE
 
 
