@@ -1,0 +1,94 @@
+-----[BASIC COMMANDS]------------------------------------------
+
+=> git –version
+=> git config
+=> git init 
+=> git status
+=> git remote add origin https://github.com 
+=> git add –all or git add -A
+=> git commit 
+=> git push --set-upstream origin master
+=> git log
+=> git command (e.g. status) -help 
+=> git help –all
+=> git push origin
+=> git branch
+=> git branch new-branch
+=> git checkout
+=> git merge ____
+
+
+-----[BASIC COMMANDS]------------------------------------------
+
+=> git –version
+
+
+
+
+-----------------[CREATING A NEW BRANCH AND MERGING IT BACK INTO MASTER]------------------------------------------------
+
+git checkout master
+git branch new-branch
+git checkout new-branch
+
+# ...develop some code...
+
+git add –A
+git commit –m "Some commit message"
+git checkout master
+git merge new-branch
+
+
+--------------------------------------------------------------------------------------------
+
+
+<!--A HIDDEN FOLDER IS CREATED TO TRACK CODE CHANGES-->
+
+git config --global user.name "___" 
+
+git config --global user.email "___"
+
+git status 
+
+
+<!--STAGING FILES-->
+git add index.html <!--SINGLE-->
+
+git add --A <!--MULTIPLE (new, modified, and deleted files)-->
+
+
+git remote add origin https://github.com/w3schools-test/hello-world.git
+
+git push --set-upstream origin master
+
+
+
+<!--A MESSAGE SHOULD ALWAYS BE INCLUDED IN A COMMIT-->
+git commit -m "First release of Hello World!"
+
+
+
+<!--List all local and remote branches of the current Git.-->
+
+git branch -a   <!--ALL LOCAL AND REMOTE BRANCHES-->
+
+git branch -r   <!--REMOTE BRANCHES OF THE CURRENT GIT-->
+
+
+
+<!--HISTORY LOG OF COMMITS FOR A REPO-->
+
+git log <!--GIT COMMIT LOG-->
+
+git commit -a -m "New line added" <!--commit the updated files directly, skipping the staging environment-->
+
+git status --short <!--compact version of the status for repository-->
+
+
+<!--GIT HELP-->
+
+git command (e.g.status) -help <!--See Options for a Specific Command-->
+
+git help --all <!--THIS SHOWS ALL POSSIBLE GIT COMMANDS-->
+
+
