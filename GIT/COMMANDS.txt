@@ -1,12 +1,15 @@
 -----[BASIC COMMANDS]------------------------------------------
 
 => git –version
-=> git config
+=> git config --global user.name "___" 
+=> git config --global user.email "___"
 => git init 
 => git status
 => git remote add origin https://github.com 
-=> git add –all or git add -A
-=> git commit 
+=> git add –-all or git add -A or git add .
+=> git add * html, js etc. 
+=> git rm --cached _____
+=> git commit -m "______"
 => git push --set-upstream origin master
 => git log
 => git command (e.g. status) -help 
@@ -17,38 +20,13 @@
 => git checkout
 => git merge ____
 
-
------[BASIC COMMANDS]------------------------------------------
-
-=> git –version
-
-
-
-
------------------[CREATING A NEW BRANCH AND MERGING IT BACK INTO MASTER]------------------------------------------------
-
-git checkout master
-git branch new-branch
-git checkout new-branch
-
-# ...develop some code...
-
-git add –A
-git commit –m "Some commit message"
-git checkout master
-git merge new-branch
+.gitignore FILE CONTAINS THE NAMES OF ALL OF THE 
+FILES WHICH YOU DON'T WANT TO PUSH TO GITHUB 
 
 
 --------------------------------------------------------------------------------------------
 
-
 <!--A HIDDEN FOLDER IS CREATED TO TRACK CODE CHANGES-->
-
-git config --global user.name "___" 
-
-git config --global user.email "___"
-
-git status 
 
 
 <!--STAGING FILES-->

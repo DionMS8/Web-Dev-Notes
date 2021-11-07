@@ -1,14 +1,31 @@
 -----[BRANCHES]----------------------------------------------------------------------------------------------------
 
-BRANCH => THIS IS BASICALLY A STRING OF COMMITS
+=> A BRANCH IS BASICALLY A STRING OF COMMITS
 
-- The git branch command is used to list all existing branches in  a repository. 
-- An asterisk will appear next to the currently active branch.
+=> GIT BRANCH - THIS WILL LIST ALL EXISTING BRANCHES IN A REPOSITORY
+=> AN ASTERISK WILL APPEAR NEXT TO THE NAME OF THE CURRENTLY ACTIVE BRANCH
 
-$ git branch new-branch
+=> GIT CHECKOUT - THIS WILL LEAVE THE CURRENTLY ACTIVE BRANCH 
+
+=> GIT MERGE - THIS WILL MERGE THE SPECIFIED BRANCH WITH THE MASTER BRANCH 
+
+$ git branch new-branch-name
 $ git branch
 * master
-new-branch
+new-branch-name
 
-- The git merge command merges the specified brach with the 
+
+-----[CREATING A NEW BRANCH AND MERGING IT BACK INTO MASTER]------------------------------------------------
+
+git checkout master
+git branch new-branch
+git checkout new-branch
+
+# ...develop some code...
+
+git add –A
+git commit –m "Some commit message"
+git checkout master
+git merge new-branch
+
 
