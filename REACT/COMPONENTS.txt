@@ -1,6 +1,24 @@
-#-----[NOTES]]----------------------------------------------------------------------------------------------------------
+#-----[COMPONENTS]----------------------------------------------------------------------------------------------------------
 
-- REACT COMPONENTS MAY BE CREATED IN 2 WAYS:
--- USING FUNCTIONS 
--- USING CLASSES 
+=> THESE ARE REUSABLE UI ELEMENTS
+=> JS FUNCTIONS THAT ACCEPT INPUTS IN ORDER TO 
+DESCRIBE HOW A SPECIFIC SECTION OF THE UI APPEARS 
+AND FUNCTIONS
+
+=> THEY ARE CREATED USING FUNCTIONS OR CLASSES
+
+=> FUNCTIONS USE HOOKS 
+=> THEY RENDER OR RETURN JSX
+
+
+#-----[NOTES]----------------------------------------------------------------------------------------------------------
+
+=> REACT COMPONENTS MAY BE CREATED IN 2 WAYS:
+==> USING FUNCTIONS 
+==> USING CLASSES 
+
+=> RENDERING
+
+
+
 
