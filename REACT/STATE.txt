@@ -1,0 +1,24 @@
+//-----[REACT STATE]----------------------------------------------------------------------------------------------------------
+
+// => STATE REFERS TO THE PARTS OF A COMPONENT THAT CAN CHANGE
+
+// => EACH COMPONENT HAS IT'S OWN STATE 
+// => STATE DETERMINES HOW THE COMPONENT RENDERS OR BEHAVES
+// => WHEN A COMPONENT'S STATE CHANGES, IT RE-RENDERS ON THE UI
+// => BEFORE ANY STATE CAN BE USED IT NEEDS TO BE IMPORTED FROM REACT
+
+// APP/GLOBAL STATE => THIS REFERS TO THE STATE THAT IS AVAILABLE TO THE ENTIRE UI AND NOT JUST A SINGLE COMPONENT 
+
+
+// => STATE IS AN OBJECT
+
+// CONTEXT API
+
+
+//-----[REACT ROUTER]----------------------------------------------------------------------------------------------------------
+
+// => USED FOR NAVIGATING PAGES
+
+
+
+

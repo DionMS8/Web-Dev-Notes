@@ -2,7 +2,6 @@
 
 => SPA => SINGLE PAGE APPLICATION
 => JSX => JAVASCRIPT SYNTAX EXTENSION
-=> VIRTUAL DOM => 
 
 
 #-----[NOTES]----------------------------------------------------------------------------------------------------------
@@ -33,6 +32,7 @@ ACQUIRES ASSETS FROM OTHER MODULES USING IMPORT
 => THERE ARE 2 TYPES OF EXPORTS:
 ==> NAMED EXPORTS
 ==> DEFAULT EXPORTS
+
 
 
 

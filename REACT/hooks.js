@@ -5,8 +5,6 @@
 // => HOOKS CANNOT BE CONDITIONAL
 // => CUSTOM HOOKS CAN BE BUILT 
 
-
-
 // useState => RETURNS A STATEFUL VALUE AND A FUNCTION TO UPDATE IT
 // useEffect => PERFORMS SIDE EFFECTS SUCH AS HTTP REQUESTS FOR API DATA WHEN A PAGE LOADS
 
@@ -20,7 +18,7 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 
 function Car() {
-    // DECLARING MULTIPLE STATE VARIABLES
+    // DECLARING INITIAL VALUES FOR MULTIPLE STATE VARIABLES
     const [brand, setBrand] = useState("Ford");
     const [color, setColor] = useState("White");
     const [model, setModel] = useState("Mustang");
@@ -45,5 +43,7 @@ function Car() {
 }
 
 ReactDOM.render(<Car />, document.getElementById("root"))
+
+
 
 
