@@ -1,19 +1,4 @@
-Web 3.0 
 Next.js
 Moralis.io
 TailwindCSS 3.0
 Blockchain
-
-
-
-
-
-
-
-
-
-
-
-
-
-
