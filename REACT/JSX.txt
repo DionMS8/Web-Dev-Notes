@@ -1,9 +1,19 @@
-// PRACTICING JSX
-
 // JSX => JAVASCRIPT SYNTAX EXTENSION
 
 return (
     <button onClick={() => this.setState({ liked: true })}>
     Liked
 );
+
+
+
+
+
+
+
+
+
+
+
+
 
