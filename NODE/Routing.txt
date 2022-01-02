@@ -1,15 +1,40 @@
-=== ROUTING METHODS
+===== ROUTES AND ROUTING ====================================================================================================
+
+- ROUTES ARE DEFINED IN THE ROUTES FOLDER
+- EACH ROUTE CAN CONTAIN MULTIPLE HANDLER FUNCTIONS
+
+- THE HANDLER FUNCTIONS ARE EXECUTED WHEN THE USER BROWSES THE SPECIFIC ROUTE
+- THE HANDLER FUNCTIONS ARE EXECUTED IN THE ORDER THEY ARE DEFINED IN THE ROUTES FOLDER
+
+=== BASIC STRUCTURE OF A ROUTE
+- app.METHOD(PATH, HANDLER)
+
+- PATH IS THE ROUTE TO THE SERVER FOR A SPECIFIC WEBPAGE
+- HANDLER IS THE CALLBACK FUNCTION THAT WILL BE EXECUTED WHEN THE MATCHING ROUTE IS FOUND
+
+- ROUTING IS THE PROCESS OF DETERMINING A SPECIFIC BEHAVIOUR OF THE APPLICATION
+
+=== HTTP ROUTING METHODS
+
 - GET
+app.get('/', (req, res) => {
+res.send('Hello World');
+});
+
 - POST
+app.post('/api/books', (req, res)=> {
+//Method Body
+});
+
 - PUT
+app.put('/api/books/:id', (req, res) => {
+//method body
+});
+
 - DELETE
-
-
-
-
-
-
-
+app.delete('/api/books/:id', (req, res) => {
+//method body
+});
 
 
 
