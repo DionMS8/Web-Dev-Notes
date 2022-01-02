@@ -1,0 +1,19 @@
+=== ROUTING METHODS
+- GET
+- POST
+- PUT
+- DELETE
+
+
+
+
+
+
+
+
+
+
+
+
+
+

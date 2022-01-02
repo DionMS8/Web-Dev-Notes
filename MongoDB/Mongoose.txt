@@ -1,0 +1,9 @@
+===== MONGOOSE ============================================================
+
+- MONGOOSE HELPS IN COMMUNICATING WITH MONGODB
+
+
+
+
+
+
