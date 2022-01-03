@@ -1,0 +1,47 @@
+===== HTTP REQUESTS WITH NODE.JS ================================================
+
+=== MAKING NODE.JS REQUESTS
+
+== HTTP MODULE
+
+== NPM REQUEST MODULE 
+- npm install request
+- MOST USER-FRIENDLY
+- EASY TO USE
+- NO SUPPORT FOR PROMISES
+- LOTS OF DEPENDENCIES
+
+== AXIOS
+- npm install axios
+- PROMISE BASED HTTP CLIENT
+- MOST EASY TO USE
+- SUPPORT FOR PROMISES
+- NO DEPENDENCIES
+
+const axios = require("axios");
+const url = "<a href="https://my-json-server.typicode.com/edurekaDemo/noderequest/db">https://my-json-server.typicode.com/edurekaDemo/noderequest/db</a>";
+const getData = async url => {
+  try {
+    const response = await axios.get(url);
+    const data = response.data;
+    console.log(data);
+  } catch (error) {
+    console.log(error);
+  }
+};
+getData(url);
+
+
+
+=== NODE.JS REQUEST OBJECT
+
+The Request Object helps in retrieving the values that the client 
+browser has passed to the Node.js server over an HTTP request. 
+
+
+
+
+
+
+
+
