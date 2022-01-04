@@ -12,11 +12,6 @@ db.users.update({"First_Name" : "Dion"},
 )
 
 
-=== DEFINING A SCHEMA
-
-
-=== DEFINING A MODEL
-
 
 === PERFORMING BASIC QUERIES
 

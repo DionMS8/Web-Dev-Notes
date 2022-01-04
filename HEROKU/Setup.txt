@@ -1,0 +1,19 @@
+=== ADD THIS TO THE PACKAGE.JSON FILE
+
+{
+  "scripts": {
+      "start": "node backend/server.js",
+      "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+  },
+
+  "engines": {
+      "node": "10.16.0"
+  }
+}
+
+
+
+
+
+
+
