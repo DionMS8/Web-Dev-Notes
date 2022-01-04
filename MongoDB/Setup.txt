@@ -1,0 +1,19 @@
+=== CONNECTING THE BACKEND TO THE CLUSTER
+
+1. CREATE A SERVER.JS FILER IN THE BACKEND FOLDER
+2. CREATE A DATABASE.JS FILE AND ENTER:
+
+const mongoose = require('mongoose');
+const connection = "mongodb+srv://username:<password>@<cluster>/<database>?retryWrites=true&w=majority";
+mongoose.connect(connection,{ useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
+    .then(() => console.log("Database Connected Successfully"))
+    .catch(err => console.log(err));
+
+3. ENTER MONGODB USERNAME, CLUSTER PASSWORD, CLUSTER ADDRESS, AND NAME OF DATABASE
+
+
+
+
+
+
+

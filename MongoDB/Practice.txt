@@ -1,0 +1,29 @@
+===== PRACTICE =====================================================================
+
+=== UPDATING AN ID
+
+db.users.update({"First_Name" : "Dion"}, 
+    { 
+    "First_Name" : "Dion",
+    "Last_Name" : "Singh",
+    "Phone" : "9876543210",
+    "id" : 888 
+    }
+)
+
+
+=== DEFINING A SCHEMA
+
+
+=== DEFINING A MODEL
+
+
+=== PERFORMING BASIC QUERIES
+
+
+
+
+
+
+
+
