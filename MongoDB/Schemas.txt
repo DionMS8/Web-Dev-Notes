@@ -1,0 +1,34 @@
+=== DESIGNING SCHEMAS FOR MONGODB COLLECTIONS
+
+- THE SCHEMA FOR EACH DB COLLECTION MUST BE DESIGNED
+
+const userSchema = new Mongoose.Schema({
+  username: {
+    type: String,
+    required: true,
+  },
+  email: {
+    type: String,
+  },
+  password: {
+    type: String,
+  },
+})
+
+Mongoose.model("User", userSchema)
+
+
+DB COLLECTIONS:
+- CITIZENS
+- AUTHORIZED INQUIRERS
+- VACCINE ADMINISTRATORS
+- MOH ADMINISTRATORS
+- VACCINATION INFORMATION
+- FLAGGED CITIZENS
+
+
+
+
+
+
+
