@@ -1,3 +1,8 @@
+=== IN THE PROJECT DIRECTORY
+
+heroku login
+heroku create app-name
+
 === ADD THIS TO THE PACKAGE.JSON FILE
 
 {
@@ -11,7 +16,17 @@
   }
 }
 
+ENGINES => THIS SPECIFIES THE VERSIONS OF THE ENGINES SUCH 
+AS NODE AND NPM WHICH NEED TO BE INSTALLED
 
+
+=== ONCE DEPLOYED, ANY DEVELOPMENT CHANGES WILL 
+NEED TO BE PUSHED TO HEROKU WITH THE FOLLOWING 
+COMMANDS
+
+git add . 
+git commit -am "commit message"
+git push heroku main/master
 
 
 

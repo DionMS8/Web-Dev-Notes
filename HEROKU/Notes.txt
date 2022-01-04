@@ -1,0 +1,19 @@
+=== THE HEROKU CLI =====================================================================================
+
+THIS IS USED TO: 
+- manage and scale applications, provision add-ons, 
+- view application logs
+- run application locally
+
+
+
+
+
+
+
+
+
+
+
+
+

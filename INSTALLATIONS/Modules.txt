@@ -1,0 +1,9 @@
+===== DEV MODULES TO BE INSTALLED ON PC ==============================================================
+
+- GIT
+- NODE
+- NPM
+- CREATE-REACT-APP
+
+
+
