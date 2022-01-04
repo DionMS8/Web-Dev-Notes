@@ -1,8 +1,8 @@
 #-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
 
-- PACKAGE - contains all the files you need for a module
 - MODULES - JavaScript libraries you can include in your project
-- DEPENDENCIES - packages that your program needs to run 
+- PACKAGE - Contains all the files you need for a module
+- DEPENDENCIES - Packages that your program needs to run 
 
 - PACKAGE.JSON FILE - This file contains all app info and a list of dependencies
 - PACKAGE-LOCK.JSON FILE - This file specifies the exact version of the dependencies to be installed
@@ -13,6 +13,7 @@ NOTE:
 - The node_modules folder is placed in the .gitignore so that it is not pushed to the GitHub repo
 - The require lines basically load the packages in and tell the compiler that these packages are going to be used. 
  - Custom packages can be published to the NPM repo so that it can be used by other developers
+
 
 #-----[COMMANDS]-------------------------------------------------------------------------------------------------------------------------------
 
@@ -164,10 +165,6 @@ INSTALLED AS A DEV DEPENDENCY.
 => socket.io - HELPS FOR REAL-TIME COMMUNICATION BETWEEN USERS 
 => uuid - HELPS TO CREATE UNIQUE IDENTIFIERS FOR COMPONENTS
 => axios - CAN BE USED INSTEAD OF FETCH TO DEAL WITH REQUESTS AND RESPONSES BETWEEN THE USER AND SERVER
-=> classnames -
-
-
-
 
 
 

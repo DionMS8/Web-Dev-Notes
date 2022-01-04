@@ -1,9 +1,17 @@
+===== SCHEMAS AND MODELS ==========================================================
+
 === DESIGNING SCHEMAS FOR MONGODB COLLECTIONS
 
-- MONGOOSE IS USED TO DESIGN THE SCHEMAS FOR THE COLLECTIONS
+- A SCHEMA IS A DESIGNATED STRUCTURE FOR A COLLECTION
+- A MODEL IS A USABLE FORM OF A COLLECTION WITH A SCHEMA
 
-=== DEFINING A SCHEMA
-const userSchema = new Mongoose.Schema({
+- MONGOOSE IS USED TO DESIGN THE SCHEMAS 
+- MONGOOSE IS USED TO CREATE THE MODELS
+
+
+=== DEFINING SCHEMA FOR A USER COLLECTION
+
+const userSchema = new mongoose.Schema({
   username: {
     type: String,
     required: true,
@@ -16,17 +24,19 @@ const userSchema = new Mongoose.Schema({
   },
 })
 
-=== DEFINING A MODEL
-Mongoose.model("User", userSchema)
+
+=== DEFINING A MODEL FOR A USER COLLECTION
+
+module.exports = mongoose.model("User", userSchema)
 
 
-=== DB COLLECTIONS FOR PROJECT
-- CITIZENS
-- AUTHORIZED INQUIRERS
-- VACCINE ADMINISTRATORS
-- MOH ADMINISTRATORS
-- VACCINATION INFORMATION
-- FLAGGED CITIZENS
+=== CREATING A NEW USER IN THE COLLECTION 
+
+new User({ name: "johndoe", email: "goku69@gmail.com })
+user.save().then(() => {
+  console.log("User Saved")
+})
+
 
 
 

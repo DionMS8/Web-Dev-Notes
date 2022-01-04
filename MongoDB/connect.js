@@ -27,15 +27,20 @@ app.listen(PORT, () => {
 })
 
 
+// LOADING IN THE MONGOOSE MODELS
+
+const { 
+    Citizens,
+    AuthorizedInquirers,
+    VaccineAdministrators,
+    MoHAdministrators,
+    VaccineInformation,
+    ReportedCases } = require("./db/models");
+
+const res = require("express/lib/response");
 
 
-mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/TestDB', { useNewUrlParser: true }).then(() => {
-    console.log("Connected to MongoDB successfully :)");
-}).catch((e) => {
-    console.log("Error while attempting to connect to MongoDB");
-    console.log(e);
-});
+
 
 
 
