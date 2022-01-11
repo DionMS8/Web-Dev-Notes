@@ -11,8 +11,24 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  gender: {
+    type: String,
+    required: true,
+  },
+  age: {
+    type: Number,
+    required: true,
+    min: 18,
+    max: 100,
+    validate: {
+      validator: v => v % 2,
+      message: props => "${props.value} is not an even number",
+    }
+  },
   email: {
     type: String,
+    required: true,
+    lowercase: true,
   },
   address: {
     street: String,
@@ -20,9 +36,20 @@ const userSchema = new mongoose.Schema({
   },
   password: {
     type: String,
+    required: true,
+    minLength: 8,
+    maxLength: 100,
   },
-  createdAt: Date,
-  updatedAt: Date,
+  createdAt: {
+    type: Date,
+    default: () => Date.now(),
+    immutable: true,
+  },
+  updatedAt: {
+    type: Date,
+    default: () => Date.now(),
+    immutable: true,
+  },
   colleague: mongoose.SchemaTypes.ObjectId,
   hobbies: [String],
 })
@@ -42,6 +69,8 @@ async function run() {
     await user.save()
     console.log("User Saved: ${user}")
 }
+
+
 
 
 

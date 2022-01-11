@@ -1,0 +1,40 @@
+===== RESTFUL APIs ====================================
+
+- ALL APIS SHOULD BE SEPARATED INTO DIFFERENT FOLDERS
+- EACH API IS A CONTROLLER
+
+- Express Router is a class which helps us to 
+create router handlers. It also can extend this 
+routing to handle validation, handle 404 or 
+other errors, etc.
+
+
+=== CREATING A USER API
+
+=== USER.CONTROLLER.JS
+import express from 'express';
+const userController = express.Router();
+userController.get('/', (req, res) => {
+   res.status(200).json({
+      status: 'user Controller API call successfully'
+   });
+});
+export default userController;
+
+=== INDEX.JS FILE
+import userController from ‘./user.controller’;
+export {
+   userController
+};
+
+
+
+
+
+
+
+
+
+
+
+

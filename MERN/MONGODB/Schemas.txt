@@ -1,4 +1,4 @@
-===== SCHEMAS AND MODELS ==========================================================
+===== MONGOOSE SCHEMAS AND MODELS ==========================================================
 
 === DESIGNING SCHEMAS FOR MONGODB COLLECTIONS
 
@@ -32,13 +32,13 @@ module.exports = mongoose.model("User", userSchema)
 
 === CREATING A NEW USER IN THE COLLECTION 
 
-new User({ name: "johndoe", email: "goku69@gmail.com })
+new User({ 
+  name: "johndoe", 
+  email: "goku69@gmail.com 
+  })
 user.save().then(() => {
   console.log("User Saved")
 })
-
-
-
 
 
 

@@ -28,14 +28,10 @@ async function run() {
         user.name = "Bri"     // UPDATING THE NAME OF THE USER
         await user.save()
         console.log("User Saved: ${user}")
-    } catch (e) {
-        console.log("Error: ${e}")
-    }
-
-
-    
-
-
+    }   catch (e) {
+        console.log(e.message)
+        }
+}
 
 
 
