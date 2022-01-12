@@ -1,0 +1,29 @@
+=====[NODE MODULES]=============================================================
+
+===[CORE MODULES]===============================================================================================================================
+
+- HTTP
+- OS
+- FAST
+- EVENTS
+
+===[CUSTOM MODULES]===============================================================================================================================
+
+- FOLDERS
+- FILES
+
+===[EXPORTING A MODULE]================================================================
+
+module.exports.variable = "variableName"
+
+module.exports.function = "functionName"
+
+
+===[LOADING A LIBRARY WITH REQUIRE]================================================
+
+- REQUIRE() FUNCTION IS USED TO LOAD A PACKAGE 
+OR MODULE FROM AN EXTERNAL FOLDER 
+
+const moduleName = require("moduleName");
+
+

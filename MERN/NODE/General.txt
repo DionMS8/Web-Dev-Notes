@@ -22,34 +22,3 @@ AND NOT VISIBLE FROM THE OUTSIDE
 !!! REVISE EVENT EMITTER AND EXTENDING IT !!!
 
 
-#-----[MODULES]--------------------------------------------------------------------------------------------------------------------------------------------
-
-CORE MODULES:
-- OS
-- FAST
-- EVENTS
-- HTTP
-
-CUSTOM MODULES:
-- FOLDERS
-- FILES
-
-
-#-----[EXPORTING A MODULE]-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-module.exports.variable = "variableName"
-
-module.exports.function = "functionName"
-
-
-#-----[LOADING PACKAGE LIBRARY WITH REQUIRE]-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- THE REQUIRE() FUNCTION IS USED TO LOAD A PACKAGE OR MODULE FROM AN EXTERNAL FOLDER 
-
-const moduleName = require("moduleName")
-
-
-A class is created, it then uses the ‘extends EventEmitter’ to gain all the capabilities of the Event Emitter class
-
-
-
