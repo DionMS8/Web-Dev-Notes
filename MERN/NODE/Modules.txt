@@ -14,9 +14,9 @@
 
 ===[EXPORTING A MODULE]================================================================
 
-module.exports.variable = "variableName"
+module.exports.variable = "variableName";
 
-module.exports.function = "functionName"
+module.exports.function = "functionName";
 
 
 ===[LOADING A LIBRARY WITH REQUIRE]================================================
@@ -25,5 +25,20 @@ module.exports.function = "functionName"
 OR MODULE FROM AN EXTERNAL FOLDER 
 
 const moduleName = require("moduleName");
+
+
+===[HTTP MODULE]=======================================================================
+
+var http = require("http"); // IMPORTING THE HTTP MODULE
+
+http.createServer((req, res) => {
+    res.write("Hello, world!");
+    res.end();
+}).listen(3000, () => {
+    console.log("Server is running on port 3000");
+});
+
+
+
 
 
