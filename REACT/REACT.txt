@@ -1,7 +1,6 @@
 #-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------
 
 => SPA => SINGLE PAGE APPLICATION
-=> JSX => JAVASCRIPT SYNTAX EXTENSION
 
 
 #-----[NOTES]----------------------------------------------------------------------------------------------------------
@@ -22,7 +21,7 @@ THE APP IS
 => REACT DEVTOOLS FOR CHROME CAN BE USED TO INSPECT THE REACT COMPONENTS IN AN APPLICATION
 
 
-#-----[ES6 MODULES]----------------------------------------------------------------------------------------------------------
+#=====[ES6 MODULES]----------------------------------------------------------------------------------------------------------
 
 => A MODULE IS A SELF CONTAINED UNIT THAT CAN 
 EXPOSE ASSETS TO OTHER MODULES USING EXPORT AND 
@@ -33,7 +32,13 @@ ACQUIRES ASSETS FROM OTHER MODULES USING IMPORT
 ==> NAMED EXPORTS
 ==> DEFAULT EXPORTS
 
+#=====[RENDERING]====================================================================================================================
 
+ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById("root"));
 
+ReactDOM.render(
+    <ul><li>Thing 1</li><li>Thing 2</li></ul>, 
+    document.querySelector("#root")
+);
 
 

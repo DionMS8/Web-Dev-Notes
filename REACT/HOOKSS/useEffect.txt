@@ -1,0 +1,49 @@
+===== THE REACT USEEFFECT HOOK =========================================================================
+
+- PERFORM SIDE EFFECTS ON FUNCTIONAL COMPONENTS
+
+import { useEffect } from "react"
+
+useEffect(() => {
+    EXECUTABLE CODE FOR THE FUNCTION
+}, [DEPENDENCY ARRAY])
+
+
+- INCLUDING THE DEPENDENCY ARRAY IS OPTIONAL
+
+- IF THE VARIABLES IN THE DEPENDENCY ARRAY 
+CHANGE, THEN THE FUNCTION WILL RUN AGAIN AND 
+THE PAGE WILL BE UPDATED
+
+
+===[ON EVERY RENDER]======================================
+
+useEffect(() => {
+    
+});
+
+===[ON FIRST RENDER]======================================
+
+useEffect(() => {
+    
+}, []);
+
+===[ON FIRST RENDER + WHENEVER DEPENDENCY CHANGES]=========
+
+useEffect(() => {
+    
+}, [name]);
+
+
+useEffect + setInterval
+useEffect + setTimeout
+useEffect + fetch
+
+
+=== REPLACES THE FOLLOWING LIFECYCLE FUNCTIONS IN CLASS COMPONENTS:
+
+- componentDidMount
+- componentDidUpdate
+- componentWillUnmount
+
+

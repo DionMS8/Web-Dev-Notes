@@ -1,0 +1,34 @@
+=====[USESTATE REACT HOOK]==========================================================================================
+
+===[CREATING A STATE VARIABLE]======================================================================================
+
+import { useState } from 'react';
+
+function Component() {
+    const [count, setCount] = useState(0);
+    return (
+        <div>
+            <p>You clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>
+                Click me
+            </button>
+        </div>
+    );
+}
+
+- EACH TIME THE BUTTON IS CLICKED, THE SET 
+FUNCTION IS CALLED AGAIN AND IT EXECUTES USING 
+THE VALUE OF THE STATE VARIABLE PROVIDED BY THE 
+USESTATE FUNCTION.
+
+- EACH TIME, THE USESTATE FUNCTION WILL RETURN 
+A NEW VALUE FOR THE STATE VARIABLE.
+
+- REACT THEN RENDERS THE COMPONENT AGAIN BY 
+CALLING COMPONENT FUNCTION AGAIN.
+
+
+
+
+
+

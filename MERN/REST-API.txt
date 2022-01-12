@@ -21,13 +21,12 @@ userController.get('/', (req, res) => {
 });
 export default userController;
 
+
 === INDEX.JS FILE
 import userController from ‘./user.controller’;
 export {
    userController
 };
-
-
 
 
 
