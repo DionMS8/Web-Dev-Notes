@@ -1,5 +1,10 @@
 =====[NODE MODULES]=============================================================
 
+- A MODULE IS A SELF CONTAINED UNIT THAT CAN 
+EXPOSE ASSETS TO OTHER MODULES USING EXPORT AND 
+ACQUIRES ASSETS FROM OTHER MODULES USING IMPORT
+
+
 ===[CORE MODULES]===============================================================================================================================
 
 - HTTP
@@ -11,6 +16,7 @@
 
 - FOLDERS
 - FILES
+
 
 ===[EXPORTING A MODULE]================================================================
 
@@ -39,6 +45,10 @@ http.createServer((req, res) => {
 });
 
 
+===[ES6 MODULES]=======================================================================
 
+=> THERE ARE 2 TYPES OF EXPORTS:
+==> NAMED EXPORTS
+==> DEFAULT EXPORTS
 
 

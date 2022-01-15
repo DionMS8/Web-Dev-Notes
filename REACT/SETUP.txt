@@ -1,0 +1,34 @@
+#-----[REACT.JS]----------------------------------------------------------------------------------------------------------
+
+===[SETTING UP THE ENVIRONMENT]==========================================================================================
+
+- npx create-react-app my-app-name
+- cd my-app-name
+- npm start
+
+- GO TO LOCALHOST:3000
+
+
+===[GENERAL NOTES]====================================================================================================
+
+=> REUSABLE COMPONENTS WITH THEIR OWN STATE
+=> REACT RUNS ON THE CLIENT AS A SPA (SINGLE PAGE 
+APPLICATION)
+
+=> REACT USES DECLARATIVE CODE WHICH MEANS THAT 
+EACH LINE OF CODE DECLARES WHAT EACH ELEMENT OF 
+THE APP IS
+
+
+=> ALL OF THE HTML AND CSS IS DONE IN THE JS FILES
+=> ALL OF THE HTML IS SENT TO A SINGLE DIV IN THE INDEX.HTML FILE
+=> THE DIV IS COMMONLY GIVEN AN ID OF "ROOT"
+
+=> REACT DEVTOOLS FOR CHROME CAN BE USED TO INSPECT THE REACT COMPONENTS IN AN APPLICATION
+
+
+
+
+
+
+

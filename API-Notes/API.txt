@@ -1,0 +1,19 @@
+=====[APIs]==============================================================
+
+- PUBLIC APIs and PRIVATE APIs
+
+
+===[RESTful APIs]==============================================================
+
+- THE REST API USES HTTP VERBS TO WORK WITH DATA
+- GET, POST, PUT, DELETE
+
+
+
+
+
+
+
+
+
+

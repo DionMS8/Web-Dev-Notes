@@ -1,0 +1,44 @@
+=====[RENDERING REACT COMPONENTS]======================================================
+
+===[RENDER METHOD]===========================================================
+
+- THE RENDER METHOD IS PROVIDED BY ReactDOM
+
+THE RENDER METHOD TAKES TWO PARAMETERS:
+= THE FIRST PARAMETER IS THE COMPONENT TO RENDER
+= THE SECOND PARAMETER IS THE DOM NODE TO RENDER 
+THE COMPONENT TO
+
+
+===[EXAMPLE 1 ]===============================================================
+
+import ReactDOM from "react-dom";
+
+const Component = () => {
+  return (<h1>Hello World</h1>);
+}
+
+const DOMNode = document.getElementById("root");
+
+ReactDOM.render(<Component />, DOMNode);
+
+- THE ABOVE CODE WILL RENDER THE COMPONENT 
+INSIDE THE DOM NODE SPECIFIED
+
+- MOST REACT APPLICATIONS HAVE A SINGLE DOM NODE 
+TO RENDER COMPONENTS TO
+
+
+===[EXAMPLE 2]===============================================================
+
+ReactDOM.render(<h1>Hello World!!</h1>, document.getElementById("root"));
+
+ReactDOM.render(
+    <ul><li>Thing 1</li><li>Thing 2</li></ul>, 
+    document.querySelector("#root")
+);
+
+
+
+
+
