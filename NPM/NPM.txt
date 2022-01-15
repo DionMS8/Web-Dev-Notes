@@ -1,0 +1,53 @@
+=====[COMMON TERMS]===========================================================
+
+- MODULES => JavaScript libraries you can include in your project
+- PACKAGE => Contains all the files you need for a module
+- DEPENDENCIES => Packages that your program needs to run 
+
+- PACKAGE.JSON FILE => This file contains all app info and a list of dependencies
+
+- PACKAGE-LOCK.JSON FILE => This file specifies 
+the exact version of the dependencies to 
+be installed
+
+- NODE_MODULES FOLDER => All installed packages are stored here (NOT PUSHED TO GITHUB REPO)
+- NODEMON PACKAGE => This monitors your program and automatically runs it whenever changes are saved (Global installation recommended)
+
+- The node_modules folder is placed in the .gitignore so that it is not pushed to the GitHub repo
+- The require lines basically load the packages in and tell the compiler that these packages are going to be used. 
+- Custom packages can be published to the NPM repo so that it can be used by other developers
+
+
+
+//-----[LOCAL AND GLOBAL PACKAGES]--------------------------------------------------------------------------------------------
+
+npm install -g packageName
+
+- GLOBAL VARIABLES ARE STORED ON YOUR MACHINE
+- npm root WILL GIVE THE LOCATION OF THE GLOBAL VARIABLES
+
+
+const name = require("packageName")
+
+
+#-----[RECOMMENDED PACKAGES]------------------------------------------------------------------------------------------------------------------------------------------
+
+=> date-fns
+=> dotenv - THIS ALLOWS YOU TO STORE ALL ENVIRONMENT VARIABLES 
+SUCH AS DB INFORMATION IN A SINGLE FOLDER SO THAT IT CAN BE 
+CALLED TO ANY FILE WITH THE FOLLOWING THE LINE OF CODE:
+
+require("dotenv").config()
+
+NOTE: SINCE IT WILL ONLY BE USED IN DEVELOPMENT, IT CAN BE 
+INSTALLED AS A DEV DEPENDENCY.
+
+=> socket.io - HELPS FOR REAL-TIME COMMUNICATION BETWEEN USERS 
+=> uuid - HELPS TO CREATE UNIQUE IDENTIFIERS FOR COMPONENTS
+=> axios - CAN BE USED INSTEAD OF FETCH TO DEAL WITH REQUESTS AND RESPONSES BETWEEN THE USER AND SERVER
+
+
+
+
+
+

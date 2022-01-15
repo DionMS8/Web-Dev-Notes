@@ -1,18 +1,20 @@
-#-----[EXPRESS FRAMEWORK]-------------------------------------------------------------------------------------------------------------------------------------------
+=====[EXPRESS]=====================================================
 
 - EXPRESS IS A WEB FRAMEWORK FOR NODE
 - IT IS BUILT ON THE HTTP MODULE OF NODE
 - IT IS USED TO MANAGE MULTIPLE ROUTES
 
-=== IMPORTING THE EXPRESS MODULE
+===[IMPORTING THE EXPRESS MODULE]==============================================
 
 const express = require("express");
 
-
-=== CREATING AN EXPRESS OBJECT
+===[INSTANTIATING AN EXPRESS OBJECT]===============================================
 
 const app = express();
 
+===[RECOMMENDED DEPENDENCIES]====================================================
+
+npm install body-parser cors express helmet morgan
 
 === CREATING A CALLBACK FUNCTION FUNCTION WHICH WILL BE INVOKED WHENEVER THE USER LOADS THE URL FOR THE APPLICATION
 
@@ -27,6 +29,14 @@ RES - HTTP RESPONSE OBJECT
 
 const port = process.env.PORT || 8080;
 app.listen(port, ()=> console.log("Listening on port ${port}..."))
+
+
+
+
+
+
+
+
 
 
 
