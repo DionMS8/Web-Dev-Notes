@@ -1,0 +1,19 @@
+=====[POSTMAN TESTS]==============================================================
+
+- POSTMAN TESTS ARE JS CODE ADDED TO REQUESTS
+- THE TEST CODE WILL RUN ON THE POSTMAN APP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+=====[COLLECTIONS]===============================================================
+
+- COLLECTIONS CAN BE RUN USING NEWMAN OR 
+COLLECTION RUNNER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
