@@ -1,0 +1,44 @@
+=====[MIDDLEWARE]=======================================================
+
+- MIDDLEWARE REFERS TO A FUNCTION THAT HOOKS 
+INTO THE ROUTING PROCESS AND PERFORMS SOME 
+OPERATION AT A SPECIFIC POINT IN THE PROCESS
+
+- THE REQ AN RES OBJECTS ARE PASSED INTO THE 
+MIDDLEWARE FUNCTION AS ARGUMENTS
+
+app.use((req, res, next) => { _____ })
+
+- THE "next" VARIABLE IS A REFERENCE TO THE 
+NEXT MIDDLEWARE FUNCTION TO BE EXECUTED
+
+- SOME MIDDLEWARE ARE PRE-MADE NPM PACKAGES
+
+
+===[STORING THE MIDDLEWARE FUNCTION]================================
+
+const myMiddleware = (req, res, next) => {
+___________
+next()
+}
+
+app.use(myMiddleware)
+
+
+===[STORING THE GENERATED DATA]================================
+
+- THE Request.locals OBJECT IS USED 
+
+Request.locals.name = "Goku"
+
+
+===[FOR SPECIFIC ROUTES]============================================
+
+- ADDING IT TO THE ROUTE DEFINITION
+
+app.get("/", myMiddleware, (req, res) =>{
+___________
+})
+
+
+
