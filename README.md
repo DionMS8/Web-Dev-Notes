@@ -1,4 +1,4 @@
-# Web-Dev-Notes
+# Web Development Notes
 
 ## Gneral Description
 
