@@ -2,12 +2,14 @@
 
 - MIDDLEWARE REFERS TO A FUNCTION THAT HOOKS 
 INTO THE ROUTING PROCESS AND PERFORMS SOME 
-OPERATION AT A SPECIFIC POINT IN THE PROCESS
+OPERATION AT A SPECIFIC POINT 
 
 - THE REQ AN RES OBJECTS ARE PASSED INTO THE 
 MIDDLEWARE FUNCTION AS ARGUMENTS
 
+
 app.use((req, res, next) => { _____ })
+
 
 - THE "next" VARIABLE IS A REFERENCE TO THE 
 NEXT MIDDLEWARE FUNCTION TO BE EXECUTED
@@ -31,6 +33,9 @@ app.use(myMiddleware)
 
 Request.locals.name = "Goku"
 
+- THIS POINTS TO THE NAME PROPERTY IN THE 
+CURRENT REQUEST OBJECT AND STORES A VALUE
+
 
 ===[FOR SPECIFIC ROUTES]============================================
 
@@ -39,6 +44,11 @@ Request.locals.name = "Goku"
 app.get("/", myMiddleware, (req, res) =>{
 ___________
 })
+
+
+
+
+
 
 
 

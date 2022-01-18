@@ -1,12 +1,17 @@
-===== ROUTES AND ROUTING ====================================================================================================
+=====[ROUTES AND ROUTING]====================================================================================================
 
 - ROUTES ARE DEFINED IN THE ROUTES FOLDER
-- EACH ROUTE CAN CONTAIN MULTIPLE HANDLER CALLBACK FUNCTIONS
 
-- THE HANDLER FUNCTIONS ARE EXECUTED WHEN THE USER BROWSES THE SPECIFIC ROUTE
-- THE HANDLER FUNCTIONS ARE EXECUTED IN THE ORDER THEY ARE DEFINED IN THE ROUTES FOLDER
+===[HANDLER FUNCTIONS]========================================================================================================
 
-=== BASIC STRUCTURE OF A ROUTE
+- EACH ROUTE CAN CONTAIN MULTIPLE HANDLER FUNCTIONS
+- THE HANDLER FUNCTIONS ARE EXECUTED WHEN THE 
+USER BROWSES THE SPECIFIC ROUTE PATH
+- THE HANDLER FUNCTIONS ARE EXECUTED IN THE 
+ORDER THEY ARE DEFINED IN THE ROUTES FOLDER
+
+===[ROUTE STRUCTURE]========================================================================================================
+
 - app.METHOD(PATH, HANDLER)
 
 - PATH IS THE ROUTE TO THE SERVER FOR A SPECIFIC WEBPAGE
@@ -14,7 +19,15 @@
 
 - ROUTING SPECIFIES HOW AN APPLICATION SHOULD RESPOND TO A CLIENT REQUEST
 
-=== HTTP ROUTING METHODS
+app.get("/", (req, res) => {
+    res.send("Hello World"));
+}
+
+REQ - HTTP REQUEST OBJECT
+RES - HTTP RESPONSE OBJECT
+
+
+===[HTTP ROUTING METHODS]====================================================================================================
 
 - GET
 app.get('/', (req, res) => {
@@ -23,26 +36,23 @@ res.send('Hello World');
 
 - POST
 app.post('/api/books', (req, res)=> {
-//Method Body
+_____________
 });
 
 - PUT
 app.put('/api/books/:id', (req, res) => {
-//Method body
+_____________
 });
 
 - DELETE
 app.delete('/api/books/:id', (req, res) => {
-//Method body
+_____________
 });
 
 - PATCH
 app.patch('/api/books/:id', (req, res) => {
-//Method body
+_____________
 });
-
-
-
 
 
 

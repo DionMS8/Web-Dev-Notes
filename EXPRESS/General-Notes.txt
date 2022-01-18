@@ -1,0 +1,34 @@
+=====[EXPRESS]=====================================================
+
+- EXPRESS IS A WEB FRAMEWORK FOR NODE
+- IT IS BUILT ON THE HTTP MODULE OF NODE
+- IT IS USED TO MANAGE MULTIPLE ROUTES
+
+===[INSTALLATION AND SETUP]==============================================
+
+npm install express --save
+import express from "express"
+const express = require("express");
+const app = express(); // INSTANTIATING AN EXPRESS OBJECT
+
+===[RECOMMENDED MIDDLEWARE]====================================================
+
+- BODY-PARSER
+- COOKIE-PARSER
+- CORS
+- MORGAN
+- HELMET
+
+
+===[SERVING STATIC FILES]====================================   
+
+app.use(express.static("public"));
+
+- THIS SERVES ANY STATIC FILES SUCH AS IMAGES
+OR CSS THAT ARE STORED IN THE PUBLIC FOLDER 
+OF THE DIRECTORY 
+
+
+
+
+
