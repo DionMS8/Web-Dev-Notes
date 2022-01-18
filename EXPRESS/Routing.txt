@@ -14,14 +14,9 @@ ORDER THEY ARE DEFINED IN THE ROUTES FOLDER
 
 - app.METHOD(PATH, HANDLER)
 
-- PATH IS THE ROUTE TO THE SERVER FOR A SPECIFIC WEBPAGE
-- HANDLER IS THE CALLBACK FUNCTION THAT WILL BE EXECUTED WHEN THE USER LOADS THE SPECIFIC ROUTE URL
-
-- ROUTING SPECIFIES HOW AN APPLICATION SHOULD RESPOND TO A CLIENT REQUEST
-
-app.get("/", (req, res) => {
-    res.send("Hello World"));
-}
+- PATH => THE ROUTE TO THE SERVER FOR A WEBPAGE
+- HANDLER => CALLBACK FUNCTION TO BE EXECUTED 
+WHEN THE USER LOADS THE SPECIFIC ROUTE URL
 
 REQ - HTTP REQUEST OBJECT
 RES - HTTP RESPONSE OBJECT
@@ -29,9 +24,12 @@ RES - HTTP RESPONSE OBJECT
 
 ===[HTTP ROUTING METHODS]====================================================================================================
 
+- ROUTING SPECIFIES HOW AN APPLICATION SHOULD 
+RESPOND TO CLIENT REQUESTS
+
 - GET
-app.get('/', (req, res) => {
-res.send('Hello World');
+app.get("/", (req, res) => {
+    res.send("Hello World"));
 });
 
 - POST
@@ -53,6 +51,7 @@ _____________
 app.patch('/api/books/:id', (req, res) => {
 _____________
 });
+
 
 
 
