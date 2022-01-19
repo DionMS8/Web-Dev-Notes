@@ -18,8 +18,10 @@ ORDER THEY ARE DEFINED IN THE ROUTES FOLDER
 - HANDLER => CALLBACK FUNCTION TO BE EXECUTED 
 WHEN THE USER LOADS THE SPECIFIC ROUTE URL
 
-REQ - HTTP REQUEST OBJECT
-RES - HTTP RESPONSE OBJECT
+- REQ => HTTP REQUEST OBJECT
+- RES => HTTP RESPONSE OBJECT
+
+- RES.SEND => SENDS A RESPONSE TO THE CLIENT
 
 
 ===[HTTP ROUTING METHODS]====================================================================================================
@@ -33,25 +35,24 @@ app.get("/", (req, res) => {
 });
 
 - POST
-app.post('/api/books', (req, res)=> {
+app.post("/", (req, res)=> {
 _____________
 });
 
 - PUT
-app.put('/api/books/:id', (req, res) => {
+app.put("/", (req, res) => {
 _____________
 });
 
 - DELETE
-app.delete('/api/books/:id', (req, res) => {
+app.delete("/", (req, res) => {
 _____________
 });
 
 - PATCH
-app.patch('/api/books/:id', (req, res) => {
+app.patch("/", (req, res) => {
 _____________
 });
-
 
 
 

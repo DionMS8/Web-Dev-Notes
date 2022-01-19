@@ -1,0 +1,50 @@
+=====[RETRIEVING QUERY STRING PARAMETERS]================================================================
+
+- THE QUERY STRING IS SEEN AFTER THE ? IN THE URL 
+- THE QUERY STRING IS A STRING OF KEY=VALUE PAIRS
+- THE PAIRS ARE SEPARATED BY AN "&"
+
+- EXPRESS CAN BE USED TO ACCESS THE QUERY 
+PARAMETERS FROM THE STRING IN THE URL
+
+
+===[GET QUERY STRING PARAMETERS]===================================================================
+
+- THE REQ.QUERY OBJECT CONTAINS A PROPERTY FOR 
+EACH QUERY PARAMETER
+
+- A FOR...IN LOOP CAN BE USED TO ITERATE THROUGH 
+THE REQ.QUERY OBJECT AND PRINT EACH OF THE KEY 
+PROPERTIES AND THEIR CORRESPONDING VALUES
+
+for (const key in req.query) {
+    console.log(key, req.query[key]);
+}
+
+- INDIVIDUAL PARAMETERS CAN ALSO BE ACCESSED
+
+req.query.fname
+req.query.lname
+req.query.age
+
+
+===[POST QUERY STRING PARAMETERS]===================================================================
+
+- THESE ARE SENT BY THE HTTP CLIENTS
+
+- THE REQ.BODY OBJECT IS USED TO ACCESS POST 
+QUERY STRING DATA
+
+app.post("/", (req, re) => {
+    console.log(req.body.name);
+});
+
+- THE BODY-PARSER MIDDLEWARE IS INSTALLED AS 
+AN NPM PACKAGE AND USED TO PROCESS POST DATA
+
+
+
+
+
+
+
