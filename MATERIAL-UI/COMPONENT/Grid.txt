@@ -1,0 +1,29 @@
+=====[ THE GRID COMPONENT]=====================================
+
+===[TYPES]=================================================================
+
+- CONTAINER
+- ITEM
+
+===[PROPERTIES FOR GRID CONTAINER COMPONENT]===============================
+
+- Justify, Spacing, AlignItems, etc. 
+
+<Grid container justify="space-between" 
+spacing={3} alignItems="stretch"></Grid>
+
+
+===[PROPERTIES FOR GRID ITEM COMPONENT]===================================
+
+- FOR GRID ITEMS, THE WIDTH MUST BE SET FOR 
+DIFFERENT SIZES OF DEVICES 
+
+<Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+</Grid>
+
+- NOTE: 12 IS THE MAXIMUM WIDTH
+
+
+
+
+
