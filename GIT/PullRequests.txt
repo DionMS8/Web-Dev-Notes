@@ -1,0 +1,59 @@
+=====[PULL REQUESTS]==========================================================================
+
+- A DEVELOPER CAN MAKE A PULL REQUEST TO THE 
+MAINTAINER OF A GIT REPOSITORY TO REVIEW THE 
+CODE THEY WANT TO MERGE INTO A PROJECT
+
+
+===[PROCESS]===========================================================================================
+
+1. FORK THE REPOSITORY
+2. CREATE A NEW BRANCH IN THAT REPOSITORY
+    - (git branch ______)
+3. CHECKOUT THE NEW BRANCH
+    - (git checkout ______)
+4. MAKE THE CHANGE IN THAT BRANCH
+    - (git add .)
+    - (git commit -m "change-message")
+5. PUSH THE CHANGE TO THE FORKED REPOSITORY
+    - (git push origin ______)
+6. MAKE A PULL REQUEST TO THE MAINTAINER OF THE 
+ORIGINAL REPOSITORY
+7. AWAIT FOR THE MAINTAINER TO MERGE THE CHANGES
+    - (git pull origin ______)
+
+===[IMPORTANT!!!]========================================================================================
+
+- THERE CAN ONLY BE ONE PULL REQUEST ASSOCIATED 
+WITH A BRANCH.THEREFORE, FOR EACH CHANGE YOU 
+MAKE, YOU MUST CREATE A NEW BRANCH AND MAKE A 
+NEW PULL REQUEST.
+
+
+===[REMOVING A COMMIT FROM PULL REQUEST]================================================================
+
+- THIS WILL REQUIRE A FORCE PUSH (git push -f)
+
+1. git log
+2. git reset (commit-id)
+3. git status 
+4. git add .
+5. git stash
+6. git log
+7. git push origin (new-branch-name) -f 
+
+
+===[MAINTAINING THE FORKED REPOSITORY]===============================================================
+
+- FETCH UPSTREAM => THIS WILL FETCH THE LATEST 
+CHANGES FROM THE MAINTAINER OF THE REPOSITORY 
+AND PUSH THEM TO THE FORKED REPOSITORY
+
+(git fetch upstream)
+
+
+
+
+
+
+

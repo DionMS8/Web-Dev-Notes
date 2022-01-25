@@ -1,4 +1,19 @@
-//-----[REDUX]----------------------------------------------------------------------------------------------------------
+=====[REDUX]----------------------------------------------------------------------------------------------------------
 
-// => USED FOR STATE MANAGEMENT
+- ACTIONS AND REDUCERS ARE USED TO MANAGE THE 
+GLOBAL STATE OF A REACT APPLICATION
+
+- REDUCERS ARE FUNCTIONS
+
+
+
+
+
+
+
+
+- IMPORT { COMBINEREDUCERS } FROM REDUX
+
+
+
 

@@ -1,73 +1,66 @@
------[BASIC COMMANDS]------------------------------------------
+===[SETTING UP]==========================================================================================
 
-=> git –version
+=> git –-version
 => git config --global user.name "___" 
 => git config --global user.email "___"
-=> git init 
+
+.gitignore => THIS FILE CONTAINS THE NAMES OF 
+ALL OF THE FILES WHICH YOU DON'T WANT TO PUSH 
+TO GITHUB 
+
+- MESSAGES SHOULD ALWAYS BE INCLUDED IN COMMITS
+
+
+===[BASIC COMMANDS]==========================================================================================
+
+=> git help –all // THIS SHOWS ALL GIT COMMANDS
+
+=> git init // A HIDDEN FOLDER IS CREATED TO TRACK CODE CHANGES
+=> git clone repo-name new-name // CLONE A REMOTE REPOSITORY TO YOUR LOCAL MACHINE
+
 => git status
 => git remote add origin https://github.com 
 => git add –-all or git add -A or git add .
 => git add * html, js etc. 
 => git rm --cached _____
-=> git commit -m "______"
-=> git push --set-upstream origin master
-=> git log
 => git command (e.g. status) -help 
-=> git help –all
+
+=> git commit -m "______"
+
+
+===[REVERTING A COMMIT BY PRODUCING A NEW
+COMMIT WITH CONTRARY CHANGES]============================== 
+
+=> git revert <commit> 
+
+
+===[PUSHING TO REMOTE REPOSITORY @ GITHUB]==========================================================================================
+
+=> git push --set-upstream origin master
 => git push origin
-=> git branch
-=> git branch new-branch
-=> git checkout
-=> git merge ____
 
-.gitignore FILE CONTAINS THE NAMES OF ALL OF THE 
-FILES WHICH YOU DON'T WANT TO PUSH TO GITHUB 
+=> gitwhatchanged // THIS COMMAND WILL SHOW YOU THE CHANGES IN THE LAST COMMIT
+=> git log
+=> git grep "____" // SEARCHING FILES IN THE DIRECTORY
 
 
---------------------------------------------------------------------------------------------
-
-<!--A HIDDEN FOLDER IS CREATED TO TRACK CODE CHANGES-->
+=> git command (e.g.status) -help <!--See Options for a Specific Command-->
 
 
-<!--STAGING FILES-->
+===[STAGING FILES TO BE COMMITTED]==========================================================================================
+
 git add index.html <!--SINGLE-->
 
-git add --A <!--MULTIPLE (new, modified, and deleted files)-->
+git add -A <!--MULTIPLE (new, modified, and deleted files)-->
 
 
-git remote add origin https://github.com/w3schools-test/hello-world.git
-
-git push --set-upstream origin master
-
-
-
-<!--A MESSAGE SHOULD ALWAYS BE INCLUDED IN A COMMIT-->
-git commit -m "First release of Hello World!"
-
-
-
-<!--List all local and remote branches of the current Git.-->
-
-git branch -a   <!--ALL LOCAL AND REMOTE BRANCHES-->
-
-git branch -r   <!--REMOTE BRANCHES OF THE CURRENT GIT-->
-
-
-
-<!--HISTORY LOG OF COMMITS FOR A REPO-->
+===[HISTORY LOG OF COMMITS FOR A REPOSITORY]=========================================================
 
 git log <!--GIT COMMIT LOG-->
 
 git commit -a -m "New line added" <!--commit the updated files directly, skipping the staging environment-->
 
 git status --short <!--compact version of the status for repository-->
-
-
-<!--GIT HELP-->
-
-git command (e.g.status) -help <!--See Options for a Specific Command-->
-
-git help --all <!--THIS SHOWS ALL POSSIBLE GIT COMMANDS-->
 
 
 

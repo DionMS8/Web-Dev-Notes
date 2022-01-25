@@ -1,0 +1,14 @@
+=====[DEPLOYMENT PROCESS]=====================================================
+
+1. CREATE A NEW APP
+2. ADD A NAME AND REGION
+3. GO TO SERVER FOLDER:
+    heroku login 
+4. heroku git remote -a <APP NAME>
+5. git push heroku master
+6. heroku open
+
+
+
+
+

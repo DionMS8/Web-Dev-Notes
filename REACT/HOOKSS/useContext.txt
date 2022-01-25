@@ -1,0 +1,19 @@
+=====[REACT CONTEXT]=================================
+
+- REACT CONTEXT IS USED TO MANAGE STATE GLOBALLY
+
+import { createContext } from "react"; // IMPORTING IT
+
+const UserContext = createContext(); // INITIALIZING IT
+
+
+===[CONTEXT PROVIDER]====================================
+
+
+
+
+
+
+
+
+

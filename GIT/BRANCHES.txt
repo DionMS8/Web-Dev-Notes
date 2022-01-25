@@ -2,12 +2,22 @@
 
 => A BRANCH IS BASICALLY A STRING OF COMMITS
 
-=> GIT BRANCH - THIS WILL LIST ALL EXISTING BRANCHES IN A REPOSITORY
 => AN ASTERISK WILL APPEAR NEXT TO THE NAME OF THE CURRENTLY ACTIVE BRANCH
 
-=> GIT CHECKOUT - THIS WILL LEAVE THE CURRENTLY ACTIVE BRANCH 
 
-=> GIT MERGE - THIS WILL MERGE THE SPECIFIED BRANCH WITH THE MASTER BRANCH 
+===[BRANCHES]=========================================================
+
+=> git branch // THIS WILL LIST ALL EXISTING BRANCHES IN A REPOSITORY
+=> git branch new-branch // CREATES A NEW BRANCH
+=> git checkout _____ // CHECKS OUT THE CURRENTLY ACTIVE BRANCH
+=> git merge ____ // MERGES A BRANCH INTO THE CURRENT BRANCH
+
+===[LISTING BRANCHES]============================================================================================
+
+git branch -a   <!--ALL LOCAL AND REMOTE BRANCHES-->
+
+git branch -r   <!--REMOTE BRANCHES OF THE CURRENT GIT-->
+
 
 $ git branch new-branch-name
 $ git branch
@@ -15,18 +25,20 @@ $ git branch
 new-branch-name
 
 
------[CREATING A NEW BRANCH AND MERGING IT BACK INTO MASTER]------------------------------------------------
+===[MERGING A NEW BRANCH BACK INTO MASTER]================================
 
 git checkout master
 git branch new-branch
 git checkout new-branch
 
-# ...develop some code...
+.... DEVELOP SOME CODE ....
 
 git add –A
 git commit –m "Some commit message"
 git checkout master
 git merge new-branch
+
+
 
 
 
