@@ -1,31 +1,26 @@
------[BRANCHES]----------------------------------------------------------------------------------------------------
+=====[BRANCHES]=====================================================================================
 
 => A BRANCH IS BASICALLY A STRING OF COMMITS
 
+
+===[COMMANDS]======================================================================================
+
+=> git branch --list // THIS WILL LIST ALL EXISTING BRANCHES IN A REPOSITORY
+=> git branch -a   <!--ALL LOCAL AND REMOTE BRANCHES-->
+=> git branch -r   <!--REMOTE BRANCHES OF THE CURRENT GIT-->
+
 => AN ASTERISK WILL APPEAR NEXT TO THE NAME OF THE CURRENTLY ACTIVE BRANCH
 
+=> git branch [branch-name] // CREATES A NEW BRANCH
+=> git push -u remote [new-branch-name] // PUSHES THE NEW BRANCH TO THE REMOTE REPOSITORY
+=> git branch -d [branch-name] // DELETES A BRANCH
 
-===[BRANCHES]=========================================================
-
-=> git branch // THIS WILL LIST ALL EXISTING BRANCHES IN A REPOSITORY
-=> git branch new-branch // CREATES A NEW BRANCH
-=> git checkout _____ // CHECKS OUT THE CURRENTLY ACTIVE BRANCH
-=> git merge ____ // MERGES A BRANCH INTO THE CURRENT BRANCH
-
-===[LISTING BRANCHES]============================================================================================
-
-git branch -a   <!--ALL LOCAL AND REMOTE BRANCHES-->
-
-git branch -r   <!--REMOTE BRANCHES OF THE CURRENT GIT-->
+=> git checkout [branch-name] // CHECKS OUT TO ANOTHER BRANCH
+=> git merge [new-branch-name] // MERGES A BRANCH INTO THE CURRENT BRANCH
 
 
-$ git branch new-branch-name
-$ git branch
-* master
-new-branch-name
 
-
-===[MERGING A NEW BRANCH BACK INTO MASTER]================================
+===[MERGING A NEW BRANCH BACK INTO MASTER]==========================================================
 
 git checkout master
 git branch new-branch
@@ -37,10 +32,6 @@ git add –A
 git commit –m "Some commit message"
 git checkout master
 git merge new-branch
-
-
-
-
 
 
 

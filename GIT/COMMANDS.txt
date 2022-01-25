@@ -29,16 +29,25 @@ TO GITHUB
 
 
 ===[REVERTING A COMMIT BY PRODUCING A NEW
-COMMIT WITH CONTRARY CHANGES]============================== 
+COMMIT WITH CONTRARY CHANGES]===================================================================== 
 
 => git revert <commit> 
 
 
-===[PUSHING TO REMOTE REPOSITORY @ GITHUB]==========================================================================================
+===[PUSHING TO REMOTE ONLINE REPOSITORY @ GITHUB]==========================================================================================
 
 => git push --set-upstream origin master
 => git push origin
 
+===[PULLING FROM REMOTE ONLINE REPOSITORY @ GITHUB]==========================================================================================
+
+=> git pull
+=> git pull remote [branch-name]
+
+===[OTHER COMMANDS]==========================================================================================
+
+=> git clone // CLONING THE ONLINE REPO TO YOUR COMPUTER
+=> git stash // STASHING THE CHANGES TO NOT PUSH THEM TO REMOTE REPO
 => gitwhatchanged // THIS COMMAND WILL SHOW YOU THE CHANGES IN THE LAST COMMIT
 => git log
 => git grep "____" // SEARCHING FILES IN THE DIRECTORY
@@ -61,6 +70,8 @@ git log <!--GIT COMMIT LOG-->
 git commit -a -m "New line added" <!--commit the updated files directly, skipping the staging environment-->
 
 git status --short <!--compact version of the status for repository-->
+
+
 
 
 
