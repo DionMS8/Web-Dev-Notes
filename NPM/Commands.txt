@@ -49,9 +49,6 @@ npm update lodash --save
 npm install -g nodemon
 npm install -g live-server
 
-# RUN NODEMON
-nodemon
-
 # FIND ROOT FOLDER
 npm root -g
 

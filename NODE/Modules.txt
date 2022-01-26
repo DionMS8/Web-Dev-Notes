@@ -1,9 +1,15 @@
-=====[NODE MODULES]=============================================================
+=====[NODE MODULES]================================================================================
 
 - A MODULE IS A SELF CONTAINED UNIT THAT CAN 
 EXPOSE ASSETS TO OTHER MODULES USING EXPORT AND 
 ACQUIRES ASSETS FROM OTHER MODULES USING IMPORT
 
+import ____ from "_____";
+
+export default __________
+
+@ => USING THIS SYMBOL INDICATES FROM THE ROOT 
+OF THE DIRECTORY
 
 ===[CORE MODULES]===============================================================================================================================
 
@@ -17,8 +23,7 @@ ACQUIRES ASSETS FROM OTHER MODULES USING IMPORT
 - FOLDERS
 - FILES
 
-
-===[EXPORTING A MODULE]================================================================
+===[EXPORTING A MODULE]===========================================================================
 
 module.exports.variable = "variableName";
 
@@ -48,7 +53,7 @@ http.createServer((req, res) => {
 ===[ES6 MODULES]=======================================================================
 
 => THERE ARE 2 TYPES OF EXPORTS:
-==> NAMED EXPORTS
-==> DEFAULT EXPORTS
+- NAMED EXPORTS
+- DEFAULT EXPORTS
 
 
