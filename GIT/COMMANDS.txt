@@ -39,10 +39,12 @@ COMMIT WITH CONTRARY CHANGES]===================================================
 => git push --set-upstream origin master
 => git push origin
 
+
 ===[PULLING FROM REMOTE ONLINE REPOSITORY @ GITHUB]==========================================================================================
 
 => git pull
 => git pull remote [branch-name]
+
 
 ===[OTHER COMMANDS]==========================================================================================
 
@@ -70,7 +72,6 @@ git log <!--GIT COMMIT LOG-->
 git commit -a -m "New line added" <!--commit the updated files directly, skipping the staging environment-->
 
 git status --short <!--compact version of the status for repository-->
-
 
 
 

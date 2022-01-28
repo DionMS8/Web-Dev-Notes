@@ -1,12 +1,14 @@
 =====[MIDDLEWARE]=======================================================
 
-- MIDDLEWARE REFERS TO A FUNCTION THAT HOOKS 
-INTO THE ROUTING PROCESS AND PERFORMS SOME 
-OPERATION AT A SPECIFIC POINT 
+- MIDDLEWARE REFERS TO FUNCTIONS THAT HOOK 
+INTO THE ROUTING PROCESS BETWEEN THE REQUEST 
+AND RESPONSE AND PERFORM SOME OPERATION AT 
+A SPECIFIC POINT 
 
-- THE REQ AN RES OBJECTS ARE PASSED INTO THE 
-MIDDLEWARE FUNCTION AS ARGUMENTS
+- THE HTTP REQ AN RES OBJECTS ARE PASSED INTO 
+THE MIDDLEWARE FUNCTION AS ARGUMENTS
 
+- ALL MIDDLEWARE FUNCTIONS RUN ON THE SERVER
 
 app.use((req, res, next) => { _____ })
 
@@ -19,12 +21,12 @@ NEXT MIDDLEWARE FUNCTION TO BE EXECUTED
 
 ===[STORING THE MIDDLEWARE FUNCTION]================================
 
-const myMiddleware = (req, res, next) => {
+const middlewareFunction = (req, res, next) => {
 ___________
 next()
 }
 
-app.use(myMiddleware)
+app.use(middlewareFunction)
 
 
 ===[STORING THE GENERATED DATA]================================
@@ -46,9 +48,12 @@ ___________
 })
 
 
+===[MORE MIDDLEWARE]===============================================
 
+- SERVING STATIC FILES WITH EXPRESS
+- CSS FILES, TEXT FILES, IMAGES ETC. 
 
-
+app.use(express.static("____"));
 
 
 

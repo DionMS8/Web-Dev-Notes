@@ -1,8 +1,10 @@
-===== MONGOOSE ============================================================
+=====[MONGOOSE]=========================================================================================================
 
-=== NOTES
+===[NOTES]=================================================================================================================
 
-- MONGOOSE IS A MONGODB OBJECT MODELING TOOL 
+- MONGOOSE IS AN OBJECT DATA MODELING (ODM) 
+TOOL FOR MONGODB
+
 - DESIGNED FOR USE IN AN ASYNCHRONOUS ENVIRONMENT
 
 - MONGOOSE IS USED TO DEFINE SCHEMAS AND MODELS FOR THE MONGODB DATABASE
@@ -14,29 +16,30 @@
 - MONGOOSE THEN RETURNS THE DATA TO THE CALLING FUNCTION
 
 
-=== INSTALLATION
+===[INSTALLATION]========================================================================================================
 
 npm i mongoose
-
-
-npm i --save-dev nodemon
-
-- NODEMON WILL AUTOMATICALLY REFRESH THE SCRIPT 
-FILE WHENEVER CHANGES ARE MADE WITHOUT HAVING
-TO RUN/RESTART THE SCRIPT
-
-ADD TO PACKAGE.JSON => "devStart": "nodemon script.js"
-
-npm run devStart
-
 
 - The problem that Mongoose aims to solve is 
 allowing developers to enforce a specific schema 
 at the application layer.
 
 
+===[USING MONGOOSE]========================================================================================================
 
-__v => VERSION NUMBER OF A DOCUMENT
+mongoose.connect(uri, [options], [callback])
+    .then(() => app.listen(3000);
+    .catch(err => {
+        console.log('Error connecting to MongoDB: ' + err);
+    });
+
+- uri: MONGODB CONNECTION STRING
+
+- options: OPTIONAL SETTINGS
+{ useNewUrlParser: true , useUnifiedTopology: true }
+
+- callback: OPTIONAL CALLBACK FUNCTION
+
 
 
 
