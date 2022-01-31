@@ -1,0 +1,29 @@
+=====[EXPRESS ROUTER]=======================================================================================================
+
+- IT IS USED TO SPLIT ROUTES INTO DIFFERENT 
+FILES FOR EASY MANAGEMENT AND MAINTENANCE
+
+import { Router } from "express";
+
+const router = Router();
+
+- router IS LIKE A MINI APPLICATION 
+- router.get IS A METHOD THAT IS USED TO 
+HANDLE GET REQUESTS
+
+router.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+=============================================================================================
+
+app.use("/citizens", citizenRoutes);
+
+// THIS TELLS THE APP TO USE THE 
+citizenRoutes.js FILE TO HANDLE ENDPOINTS 
+THAT START WITH /citizens
+
+
+
+
+

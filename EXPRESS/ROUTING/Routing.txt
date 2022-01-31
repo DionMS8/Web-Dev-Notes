@@ -55,5 +55,15 @@ _____________
 });
 
 
+===[PATH SHORTCUTS]=========================================================================================================
+
+ "/abc" - handles /abc
+ "/ab?cd" - handles /acd or /abcd
+ "/ab+cd" - handles /abcd, /abbbcd, /abbbbbbbcd, etc
+ "/ab*cd" - "/ab" + anything + "cd"
+ /a/ - RegExp: anything that contains "a"
+ /.*man$/ - RegExp: anything that ends with "man"
+ 
+ 
 
 
