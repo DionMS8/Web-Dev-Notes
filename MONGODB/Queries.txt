@@ -1,0 +1,49 @@
+=====[MONGODB QUERIES]=======================================================
+
+- db => SHOWS THE CURRENT DATABASE
+- shows dbs => SHOWS ALL DATABASES
+
+- TO DISPLAY A MONGODB DATABASE, AT LEAST ONE 
+DOCUMENT NEEDS TO BE INSERTED INTO IT
+
+- IF NO DATABASE HAS BEEN CREATED, THEN 
+COLLECTIONS WILL BE STORED IN THE DEFAULT 
+"TEST" DATABASE
+
+db.dropDatabase() - DROPS DATABASE
+
+
+=====[MONGODB COLLECTIONS]====================================================
+
+db.createCollection("citizens")
+
+show collections
+
+
+
+=====[CRUD OPERATIONS]========================================================
+
+===[CREATE]========================================================
+
+=> insertOne()
+=> insertMany()
+
+===[READ]====================================================================
+
+=> findOne()
+=> find()
+=> findOneAndDelete()
+=> findOneAndUpdate()
+
+===[UPDATE]========================================================
+
+=> updateOne()
+=> updateMany()
+
+===[DELETE]========================================================
+
+=> deleteOne()
+=> deleteMany()
+
+
+
