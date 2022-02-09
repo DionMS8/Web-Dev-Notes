@@ -10,40 +10,45 @@ DOCUMENT NEEDS TO BE INSERTED INTO IT
 COLLECTIONS WILL BE STORED IN THE DEFAULT 
 "TEST" DATABASE
 
-db.dropDatabase() - DROPS DATABASE
+use db_name => SWITCHES INTO THE DB
+
+db.dropDatabase() => DELETES THE DATABASE
 
 
-=====[MONGODB COLLECTIONS]====================================================
+=====[MONGODB COLLECTIONS]=======================================================================
 
-db.createCollection("citizens")
+=> show collections
 
-show collections
+=> db.createCollection("users")
+
+=> use "users"
 
 
+=====[CRUD OPERATIONS]============================================================================
 
-=====[CRUD OPERATIONS]========================================================
+===[CREATING DOCUMENTS]===========================================================================
 
-===[CREATE]========================================================
+=> db.users.insertOne({name: "John", age: 30})
+=> db.users.insertMany({name: "John", age: 30}, {name: "Jane", age: 25})
 
-=> insertOne()
-=> insertMany()
 
-===[READ]====================================================================
+===[READING DOCUMENTS]===============================================================================
 
 => findOne()
-=> find()
-=> findOneAndDelete()
-=> findOneAndUpdate()
+=> db.users.find().pretty()
+
 
 ===[UPDATE]========================================================
 
-=> updateOne()
-=> updateMany()
+=> updateOne(fitter, data, options)
+=> updateMany(fitter, data, options)
+=> replaceOne(fitter, data, options)
 
 ===[DELETE]========================================================
 
-=> deleteOne()
-=> deleteMany()
+=> deleteOne(fitter, options)
+=> deleteMany(fitter, options)
+
 
 
 
