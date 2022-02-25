@@ -1,0 +1,39 @@
+=====[STRUCTURE OF A JWT]=================================
+
+- HEADER => ENCODE/DECODE ALGORITHM FOR THE JWT
+
+{
+    "alg": "HS256",
+    "typ": "JWT"
+}
+
+
+- PAYLOAD => INFORMATION STORED IN THE JWT
+
+{
+    "sub": "1234567890",  // USER ID
+    "name": "John Doe",
+    "iat": 1516239022  // ISSUED AT
+    "exp": 1516239022  // EXPIRES AT
+    "eat": 1516239022  // EXPIRES AT
+}
+
+
+- SIGNATURE => VERIFIES THAT THE TOKEN HASN'T 
+BEEN TAMPERED WITH AND IT'S CONTENTS WEREN'T 
+CHANGED BY THE CLIENT
+
+HMACSHA256(
+    base64UrlEncode(header) + "." + 
+    base64UrlEncode(payload),
+    secret
+)
+
+- THE SECRET NEEDS TO BE STORED SECURELY ON 
+THE SERVER 
+
+
+
+
+
+

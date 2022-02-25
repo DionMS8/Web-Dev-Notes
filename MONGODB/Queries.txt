@@ -1,7 +1,7 @@
 =====[MONGODB QUERIES]=======================================================
 
 - db => SHOWS THE CURRENT DATABASE
-- shows dbs => SHOWS ALL DATABASES
+- show dbs => SHOWS ALL DATABASES
 
 - TO DISPLAY A MONGODB DATABASE, AT LEAST ONE 
 DOCUMENT NEEDS TO BE INSERTED INTO IT
@@ -35,19 +35,44 @@ db.dropDatabase() => DELETES THE DATABASE
 ===[READING DOCUMENTS]===============================================================================
 
 => findOne()
-=> db.users.find().pretty()
+=> db.users.find({filter}).pretty()
+
+[EXAMPLES]:
+
+// FINDING ALL POSTS WHERE SWIMMING IS THE ONLY TAG IN THE TAGS ARRAY
+db.posts.find({tags: ["swimming"]}, {}).pretty()
+
+// RETURNING THE AUTHORS OF ALL POSTS THAT HAVE SWIMMING AS A TAG 
+db.posts.find({tags: "swimming"}, {author: 1, _id: 0}).pretty()
+
+// PROJECTION => ONLY RETURNING THE NECESSARY FIELDS
+// 1 => TRUE, 0 => FALSE
+
+// RETURNING THE NUMBER OF DOCUMENTS IN A COLLECTION
+db.posts.find().count()
 
 
 ===[UPDATE]========================================================
 
-=> updateOne(fitter, data, options)
-=> updateMany(fitter, data, options)
-=> replaceOne(fitter, data, options)
+=> updateOne(filter, data, options)
+=> updateMany(filter, data, options)
+=> replaceOne(filter, data, options)
+
+[EXAMPLES]:
+
+db.posts.updateOne({_id: "_____"}, {$set: {"address.city": "LA"}})
+
 
 ===[DELETE]========================================================
 
-=> deleteOne(fitter, options)
-=> deleteMany(fitter, options)
+=> deleteOne(filter, options)
+=> deleteMany(filter, options)
+
+
+[EXAMPLES]:
+
+db.users.deleteOne({_id: "_____"})
+db.users.deleteMany({relationshipStatus: "unknown"})
 
 
 

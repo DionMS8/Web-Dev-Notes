@@ -1,0 +1,19 @@
+- OBJECTID
+- TEXT
+- BOOLEAN
+- NUMBER
+    => NumberInt
+    => NumberLong
+    => NumberDecimal
+- ISODate
+- EMBEDDED DOCUMENT
+- ARRAY
+
+
+
+
+
+
+
+
+
