@@ -1,6 +1,6 @@
 #-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
 
-- HTTP => JAVASCRIPT OBJECT NOTATION. NOT ENCRYPTED.
+- HTTP => HYPERTEXT TRANSFER PROTOCOL. NOT ENCRYPTED.
 - HTTPS => SECURE HYPERTEXT TRANSFER PROTOCOL. ENCRYPTED.
 - FTP => FILE TRANSFER PROTOCOL
 
