@@ -1,0 +1,42 @@
+=====[GOOGLE ANALYTICS]====================================
+
+===[USE-CASES]============================================
+
+- MONITORING METRICS
+- SETTING UP GOALS
+- CAMPAIGN TRACKING
+- USING DATA TO DRIVE MORE TRAFFIC
+
+
+===
+PROPERTY => THIS REPRESENTS A BUSINESS'S 
+WEB AND/OR APP DATA
+
+
+===[TRACKING ID]===========================================
+
+UA-ACCOUNT_NUMBER-NO_OF_PROPERTIES
+
+
+===[SITE TAGS]============================================
+
+GLOBAL SITE TAG => gtag.js
+
+GOOGLE TAG MANAGER (CHROME EXTENSION)
+
+
+===[CONVERSIONS]============================================
+
+CONVERSION RATES => THIS REPRESENTS 
+
+
+===[GOALS]=================================================
+
+
+
+
+
+
+
+
+
