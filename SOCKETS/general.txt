@@ -1,10 +1,10 @@
-// USE-CASES
+=====[USE-CASES]============================================================
 
-- CHATTING
+- REALTIME CHATTING
 - LIVE FEED
 - MULTIPLAYER GAMING
 
-// WEB SOCKETS VS HTTP
+=====[WEB SOCKETS VS HTTP]==================================================
 
 FOR HTTP, A NEW TCP CONNECTION IS OPENED EACH 
 TIME A REQUEST IS SENT BY THE CLIENT, WHILE 

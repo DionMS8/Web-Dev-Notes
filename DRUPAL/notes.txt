@@ -1,0 +1,34 @@
+=====[DRUPAL]===============================================
+
+=> A CONTENT MANAGEMENT SYSTEM (CMS)
+=> IT IS BUILT ON PHP
+
+HOOKS ARE USED TO ALTER THE
+FUNCTIONALITY OF THE CMS OR ADD
+NEW FUNCTIONALITY
+
+===[CONTENT TYPE]=====================================================
+
+=> A COLLECTION OF FIELDS THAT REPRESENT A PIECE OF DATA
+=> THERE ARE 2 CONTENT TYPES:
+- ARTICLE 
+- BASIC PAGE
+=> AN INSTANCE OF A CONTENT TYPE IS 
+CALLED A NODE. EACH NODE HAS AN ID. 
+
+
+===[MODULES]=====================================================
+
+=> THE CODE IS WRITTEN IN MODULES
+=> MODULES CAN BE USED TO ADD 
+FUNCTIONALITY TO THE CMS
+
+
+
+
+
+
+
+
+
+

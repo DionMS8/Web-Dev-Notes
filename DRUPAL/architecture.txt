@@ -1,0 +1,20 @@
+=====[DRUPAL ARCHITECTURE]=======================================================
+
+=> THEME
+=> CONTRIBUTED MODULES
+=> CUSTOM MODULES
+=> DRUPAL CORE/KERNEL
+=> CORE MODULES
+- NODE
+- BLOCK
+- VIEWS
+- USER
+=> SYMFONY FRAMEWORK
+
+
+
+
+
+
+
+  

@@ -1,12 +1,12 @@
 =====[REALTIME GA REPORTS]==============================
 
-===[LIFE-CYCLE REPORTS 
+===[LIFE-CYCLE REPORTS]=================================
 
 => ACQUISITION 
 => ENGAGEMENT
 => MONETIZATION
 
-===[USER REPORTS]==============================
+===[USER REPORTS]=======================================
 
 => DEMOGRAPHICS
 => TECHNOLOGY 

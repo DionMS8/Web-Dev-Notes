@@ -8,10 +8,6 @@
 - USING DATA TO DRIVE MORE TRAFFIC
 
 
-===
-PROPERTY => THIS REPRESENTS A BUSINESS'S 
-WEB AND/OR APP DATA
-
 
 ===[TRACKING ID]===========================================
 
